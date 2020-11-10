@@ -1,8 +1,8 @@
 num_instructions = int(input())
 dict_directories = dict()
-dict_directories["Mark"] = dict()
+dict_directories["Alex"] = dict()
  
-current_location = "/Mark"
+current_location = "/Alex"
  
 def printdict(father_dict, directories, level):
     print(father_dict + ":")
@@ -30,7 +30,7 @@ for item in range(num_instructions):
     else:
         insert(current_location, argument)
  
-printdict("Mark", dict_directories["Mark"], 0)
+printdict("Alex", dict_directories["Alex"], 0)
 
 Ejercicio RAM
 cantidad_instrucciones = int(input())
